@@ -1,0 +1,20 @@
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated reports and monitoring state
+reports/
+processed_ids.json
+
+# macOS
+.DS_Store
+
+# Local editor configuration
+.vscode/
